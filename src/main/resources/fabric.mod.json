@@ -18,6 +18,9 @@
 		"main": [
 			"net.okense.dungeonsreborn.DungeonsReborn"
 		],
+		"client": [
+			"net.okense.dungeonsreborn.DungeonsRebornClient"
+		],
 		"fabric-datagen": [
 			"net.okense.dungeonsreborn.DungeonsRebornDataGenerator"
 		]
