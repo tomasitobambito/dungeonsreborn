@@ -3,7 +3,6 @@ package net.okense.dungeonsreborn;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.okense.dungeonsreborn.datagen.*;
-import net.okense.dungeonsreborn.datagen.ModLootTableProvider;
 
 public class DungeonsRebornDataGenerator implements DataGeneratorEntrypoint {
 	@Override

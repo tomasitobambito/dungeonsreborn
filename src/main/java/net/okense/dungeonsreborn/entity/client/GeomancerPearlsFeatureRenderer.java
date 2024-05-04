@@ -14,7 +14,7 @@ import net.okense.dungeonsreborn.entity.custom.GeomancerEntity;
 
 public class GeomancerPearlsFeatureRenderer<T extends GeomancerEntity>
         extends EyesFeatureRenderer<T, GeomancerEntityModel<T>> {
-    private static final RenderLayer SKIN = RenderLayer.getEyes(new Identifier(TutorialMod.MOD_ID,"textures/entity/geomancer_neck.png"));
+    private static final RenderLayer SKIN = RenderLayer.getEyes(new Identifier(DungeonsReborn.MOD_ID,"textures/entity/geomancer_neck.png"));
 
     public GeomancerPearlsFeatureRenderer(FeatureRendererContext<T, GeomancerEntityModel<T>> featureRendererContext) {
         super(featureRendererContext);

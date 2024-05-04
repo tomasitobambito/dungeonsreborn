@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "dungeonsreborn:block/pumpkin_pastures_chiseled_stone",
+    "east": "dungeonsreborn:block/pumpkin_pastures_chiseled_stone_rune_exc",
+    "north": "dungeonsreborn:block/pumpkin_pastures_chiseled_stone_rune_exc",
+    "particle": "dungeonsreborn:block/pumpkin_pastures_chiseled_stone",
+    "south": "dungeonsreborn:block/pumpkin_pastures_chiseled_stone_rune_exc",
+    "up": "dungeonsreborn:block/pumpkin_pastures_chiseled_stone",
+    "west": "dungeonsreborn:block/pumpkin_pastures_chiseled_stone_rune_exc"
+  }
+}
