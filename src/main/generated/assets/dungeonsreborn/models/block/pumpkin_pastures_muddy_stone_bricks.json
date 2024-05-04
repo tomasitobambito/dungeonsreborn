@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dungeonsreborn:block/pumpkin_pastures_muddy_stone_bricks"
+  }
+}

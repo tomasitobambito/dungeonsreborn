@@ -1,0 +1,90 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "tutorialmod:block/diamond_dust_bag",
+		"particle": "tutorialmod:block/diamond_dust_bag"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 12, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 3], "texture": "#1"},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#1"},
+				"south": {"uv": [3, 0, 6, 3], "texture": "#1"},
+				"west": {"uv": [3, 3, 6, 6], "texture": "#1"},
+				"up": {"uv": [9, 3, 6, 0], "texture": "#1"},
+				"down": {"uv": [3, 6, 0, 9], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 12, 4],
+			"to": [4, 14, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"east": {"uv": [9, 2, 11, 2.5], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"west": {"uv": [9, 2, 11, 2.5], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 2], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 2], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [12, 12, 4],
+			"to": [12, 14, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"east": {"uv": [9, 2, 11, 2.5], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"west": {"uv": [9, 2, 11, 2.5], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 2], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 2], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [4, 12, 4],
+			"to": [12, 14, 4],
+			"faces": {
+				"north": {"uv": [9, 2, 11, 2.5], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"south": {"uv": [9, 2, 11, 2.5], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 2], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 2], "rotation": 270, "texture": "#missing"}
+			}
+		},
+		{
+			"from": [4, 12, 12],
+			"to": [12, 14, 12],
+			"faces": {
+				"north": {"uv": [9, 2, 11, 2.5], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"south": {"uv": [9, 2, 11, 2.5], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 2], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 2], "rotation": 270, "texture": "#missing"}
+			}
+		},
+		{
+			"from": [4, 13, 4],
+			"to": [12, 13, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 0], "texture": "#missing"},
+				"east": {"uv": [0, 0, 2, 0], "texture": "#missing"},
+				"south": {"uv": [0, 0, 2, 0], "texture": "#missing"},
+				"west": {"uv": [0, 0, 2, 0], "texture": "#missing"},
+				"up": {"uv": [9, 0, 11, 2], "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#missing"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}
