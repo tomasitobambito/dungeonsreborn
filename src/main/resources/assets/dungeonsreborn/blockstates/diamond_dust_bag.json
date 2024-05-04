@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/diamond_dust_bag"
+      "model": "dungeonsreborn:block/diamond_dust_bag"
     }
   }
 }

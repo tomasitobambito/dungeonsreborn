@@ -23,7 +23,5 @@ public class DungeonsReborn implements ModInitializer {
 		ModItemsGroups.registerItemGroups();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.GEOMANCER, GeomancerEntity.createGeomancerAttributes());
-
-
 	}
 }

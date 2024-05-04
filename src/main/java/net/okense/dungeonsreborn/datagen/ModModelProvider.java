@@ -3,11 +3,12 @@ package net.okense.dungeonsreborn.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Block;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.TextureKey;
-import net.minecraft.data.client.TextureMap;
+import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
 import net.okense.dungeonsreborn.block.ModBlocks;
+import net.okense.dungeonsreborn.item.ModItems;
+
+import java.util.Optional;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -160,7 +161,9 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-
+        itemModelGenerator.register(ModItems.DIAMOND_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GEOMANCER_SPAWN_EGG,
+                new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));
     }
 
     private static TextureMap customBookshelf(Block side, Block end) {

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/diamond_dust_bag"
+    "layer0": "dungeonsreborn:item/diamond_dust_bag"
   }
 }

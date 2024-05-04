@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "tutorialmod:block/diamond_dust_bag",
-		"particle": "tutorialmod:block/diamond_dust_bag"
+		"1": "dungeonsreborn:block/diamond_dust_bag",
+		"particle": "dungeonsreborn:block/diamond_dust_bag"
 	},
 	"elements": [
 		{
